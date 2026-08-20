@@ -1,18 +1,18 @@
 # ECE-2112-PA-1
 **Ryan Joseph C. Dungca, 2ECE-D**
 
-This repository contains code pertaining to Programming Assignment 1 for ECE2112, covering three problems related to _Module 1 - Base Computing with Python_.
+This repository contains code pertaining to Programming Assignment 1 for the course ECE2112, covering three problems related to _Module 1 - Base Computing with Python_.
 
 # A. Word Rotation Problem
 >_Objective_: Create a function named `rotate_word()` that accepts a non-empty string. Move the first character of the string to the end while keeping all remaining characters in their original order. Preserve the capitalization of every character.
 
-The constructed function utilizes basic string slicing and indexing to achieve the desired objective for the input string `word`.
+The constructed function utilizes basic string slicing and indexing to achieve the desired objective for the input string `word`:
+- `word[0]` identifies the first character of `word`, which has an index of 0, and
+- `word[1:]` method slices beginning from the second character of `word`, and returns the rest of the string.
 
-Indexing identifies each character of a string, starting with an index of 0. Here, the first character of the string is given by `word[0]`.
+It is noted that, if the slice method is not given arguments for the start index, end index, or step, it will default to starting with the first character, ending with the last character, and keeping all characters or having a step of 1, respectively.     
 
-Slicing method allows a string to be processed by returning only characters within a starting and ending index, as well as by retaining characters based on a step interval. It is noted that, if the method is not given these arguments, it will default to starting with the first character, ending with the last character, and keeping all characters, or having a step of 1.     
-
-Thus, by providing no ending index or step, the method `word[1:]` can be interpreted as `word[1:len(word):1]`: it will start at the _second_ character, and return the rest of the string. This result is then joined to the first character of the word as explained previously.
+Thus, by providing no ending index or step, the method `word[1:]` can be interpreted as `word[1:len(word):1]`: it will start at the _second_ character, and return the rest of the string. This result is then joined to the first character of the word by concatenation.
 
 The constructed function is:
 ```
@@ -60,3 +60,4 @@ def swap_bookends(items):
 
 ## History
 - 2026, August 20: File created.
+- 2026, August 21: Re-worded explanation for problem A.
