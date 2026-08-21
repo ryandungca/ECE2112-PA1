@@ -1,7 +1,9 @@
-# ECE-2112-PA-1
+# ECE2112: Programming Assignment 1
 **Ryan Joseph C. Dungca, 2ECE-D**
 
-This repository contains code pertaining to Programming Assignment 1 for the course ECE2112, covering three problems related to _Module 1 - Base Computing with Python_.
+This repository contains code for Programming Assignment 1 of the course ECE2112, covering three problems related to _Module 1 - Base Computing with Python_.
+
+To view the code itself, access the [related Python notebook file](ECE2112-PA1.ipynb).
 
 # A. Word Rotation Problem
 >_Objective_: Create a function named `rotate_word()` that accepts a non-empty string. Move the first character of the string to the end while keeping all remaining characters in their original order. Preserve the capitalization of every character.
@@ -60,4 +62,4 @@ def swap_bookends(items):
 
 ## History
 - 2026, August 20: File created.
-- 2026, August 21: Re-worded explanation for problem A.
+- 2026, August 21: Reworded explanation for problem A; naming convention changes; notebook uploaded and linked.
