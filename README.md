@@ -1,7 +1,12 @@
 # ECE2112: Programming Assignment 1
 **Ryan Joseph C. Dungca, 2ECE-D**
 
-This repository contains code for Programming Assignment 1 of the course ECE2112, covering three problems related to _Module 1 - Base Computing with Python_.
+This repository contains code for Programming Assignment 1 of the course ECE2112, covering three problems related to _Module 1 - Base Computing with Python_. The creation of this code demonstrates the ability to:
+
+- use basic Python functions, operators, and string operations;
+- manipulate strings using indexing, slicing, and built-in string methods;
+- apply sequence unpacking to manipulate the elements of a list; and
+- construct simple Python functions that return a specified result.
 
 To view the code itself, access the [related Python notebook file](ECE2112-PA1.ipynb).
 
