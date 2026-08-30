@@ -69,3 +69,4 @@ def swap_bookends(items):
 - 2026, August 20: File created.
 - 2026, August 21: Reworded explanation for problem A; naming convention changes; notebook uploaded and linked.
 - 2026, August 27: Added overall assignment objectives.
+- 2026, August 30: Uploaded revised notebook.
