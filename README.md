@@ -22,7 +22,7 @@ It is noted that, if the slice method is not given arguments for the start index
 Thus, by providing no ending index or step, the method `word[1:]` can be interpreted as `word[1:len(word):1]`: it will start at the _second_ character, and return the rest of the string. This result is then joined to the first character of the word by concatenation.
 
 The constructed function is:
-```
+```py
 def rotate_word(word):
     return word[1:] + word[0]
 ```
@@ -41,7 +41,7 @@ The constructed function uses two methods to process both `first_name` and `last
 These methods are stacked and applied to both inputs. These are then joined using the prescribed format `first_name.last_name`.
 
 The constructed function is:
-```
+```py
 def make_username(first_name, last_name):
     return first_name.lower().replace(" ", "") + "." + last_name.lower().replace(" ", "")
 ```
@@ -59,7 +59,7 @@ The constructed function uses extended sequence unpacking for `middle` to dynami
 When returning the list, extended sequence unpacking is also used on `middle` to properly interpret each element of the list, instead of treating the list as a singular element.
 
 The constructed function is:
-```
+```py
 def swap_bookends(items):
     first, *middle, last = items
     return last, *middle, first
@@ -70,3 +70,4 @@ def swap_bookends(items):
 - 2026, August 21: Reworded explanation for problem A; naming convention changes; notebook uploaded and linked.
 - 2026, August 27: Added overall assignment objectives.
 - 2026, August 30: Uploaded revised notebook.
+- 2026, September 4: Updated code block format.
